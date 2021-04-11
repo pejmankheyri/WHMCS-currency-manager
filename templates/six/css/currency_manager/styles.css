@@ -1,0 +1,317 @@
+
+@font-face {
+	font-family: 'BYekan';
+	src:url('../../fonts/BYekan.eot');
+	src:url('../../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/BYekan.woff') format('woff'),
+		url('../../fonts/BYekan.ttf') format('truetype'),
+		url('../../fonts/BYekan.svg#BYekan') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#currency_manager_container {
+	margin-top:30px;
+	font-family: BYekan;
+}
+
+#currency_manager_topH2 {
+	border-radius: 10px 10px 0 0;
+	text-align: center; 
+	background-color: #5F497A; 
+	color: #ffffff; 
+	padding: 20px; 
+	margin-bottom:0;
+	font-family: BYekan;
+}
+
+#currency_manager_mainrow {
+	background-color:#fff; 
+	margin:0; 
+	padding: 5px 0; 
+	direction: rtl; 
+	border-bottom: 3px solid #5F497A;
+	border-right: 3px solid #5F497A;
+	border-left: 3px solid #5F497A;
+}
+
+#currency_manager_mainrow_newInvoiceId{
+	text-align: right; 
+	border-right: 1px solid #5F497A;
+}
+
+#currency_manager_mainrow_date{
+	text-align: right; 
+	direction: rtl; 
+	border-right: 1px solid #5F497A;
+}
+
+#currency_manager_mainrow_company {
+	text-align: center;
+	font-weight:bold;
+	font-size: 16px;
+}
+
+#currency_manager_mainrowtop {
+	background-color:#fff; 
+	margin:0; 
+	padding: 5px 0; 
+	direction: rtl; 
+	border-bottom: 1px solid #5F497A;
+	border-right: 3px solid #5F497A;
+	border-left: 3px solid #5F497A;
+}
+
+#currency_manager_mainrowtop_total {
+	background-color:#fff; 
+	margin:0; 
+	padding: 5px 0; 
+	direction: rtl; 
+	border-bottom: 1px solid #5F497A;
+	border-right: 3px solid #5F497A;
+	border-left: 3px solid #5F497A;
+	border-top: 2px solid #5F497A;
+}
+
+#currency_manager_mainrow_economy {
+	text-align: right; 
+	direction: rtl;
+}
+
+#currency_manager_mainrow_txt_right {
+	text-align: right;
+}
+
+#currency_manager_mainrow_sellerbox {
+	margin-top: 8px;
+	width: 1%;
+	float: right;
+	text-align: right;
+	font-weight:bold;
+	font-size: 12px;
+	transform: rotate(270deg);
+	transform-origin: right top 0;
+	margin-right: 10px;
+}
+
+#currency_manager_mainrow_sellerbox_desc {
+	width: 90%; 
+	float: right;
+	border-right: 1px solid #5F497A;
+	padding: 0 10px;
+}
+
+#currency_manager_mainrow_sellerbox_desc span {
+	font-size: 10px;
+}
+
+#currency_manager_mainrow_buyerbox {
+	width: 1%;
+	margin-top: 20px;
+	float: right;
+	text-align: right;
+	font-weight:bold;
+	font-size: 14px;
+	transform: rotate(270deg);
+	transform-origin: right top 0;
+	margin-right: 10px;
+}
+
+#currency_manager_table_titles{
+	background-color:#CCC0DA; 
+	margin:0; 
+	padding: 5px 0; 
+	direction: rtl; 
+	border-bottom: 1px solid #5F497A;
+	border-right: 3px solid #5F497A;
+	border-left: 3px solid #5F497A;
+}
+
+#currency_manager_txt_center {
+	text-align: center;
+}
+
+#currency_manager_txt_left {
+	text-align: left;
+}
+
+#currency_manager_txt_center_font {
+	text-align: center;
+	font-size: 11px;
+}
+
+#currency_manager_txt_center_dir {
+	text-align: center; 
+	direction: rtl;
+}
+
+#currency_manager_txt_center_dir_ltr {
+	text-align: center; 
+	direction: ltr;
+}
+
+#currency_manager_dir {
+	direction: rtl;
+}
+
+#currency_manager_none {
+	display: none;
+}
+
+#currency_manager_row_box {
+	width: 1%;
+	margin-top: 3px;
+	float: right;
+	text-align: right;
+	font-weight:bold;
+	font-size: 14px;
+	transform: rotate(270deg);
+	transform-origin: right top 0;
+	margin-right: 14px;
+}
+
+#currency_manager_pdoduct_desc {
+	width: 90%; 
+	float: right;
+	padding: 0 10px;
+}
+
+#currency_manager_item {
+	width: 1%;
+	margin-top: 3px;
+	float: right;
+	text-align: right;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+#currency_manager_official_product {
+	width: 99%; 
+	float: right;
+	padding: 0 10px;
+}
+
+#currency_manager_rule_box {
+	background-color:#fff; 
+	margin:0; 
+	padding: 5px 0; 
+	direction: rtl;
+	border-bottom: 1px solid #5F497A;
+	border-right: 3px solid #5F497A;
+	border-left: 3px solid #5F497A;
+}
+
+#currency_manager_total_amount_string {
+	text-align: center; 
+	direction: rtl;
+	border-left: 1px solid #5F497A;
+}
+
+#currency_manager_rules_desc {
+	text-align: right;
+	border-left: 1px solid #5F497A;
+}
+
+#currency_manager_buyer_sign {
+	border-radius: 0 0 10px 10px;
+	background-color:#fff; 
+	margin:0; 
+	padding: 5px 0; 
+	direction: rtl; 
+	border-right: 3px solid #5F497A;
+	border-left: 3px solid #5F497A;
+	border-bottom: 3px solid #5F497A;
+}
+
+#currency_manager_seller_sign {
+	text-align: center;
+	border-left: 1px solid #5F497A;
+}
+
+
+
+#a_tab{
+	background-color: #1A4D80;
+	color: #ffffff;
+}
+
+#tabs {
+	direction: rtl;
+	float: right;
+}
+
+#currency_manager_admin_edit {
+	direction:rtl;
+	text-align: right;
+	background-color: whiteSmoke;
+	margin: 0px;
+	padding: 10px;
+}
+
+#currency_manager_admin_main {
+	width: 100%;
+	direction:rtl;
+	text-align: right;
+	background-color: whiteSmoke;
+	margin: 0px;
+	padding: 10px;
+}
+
+#currency_manager_admin_main_table {
+	text-align: center;
+	background-color: whiteSmoke;
+	margin: 0px
+	;padding: 10px;
+}
+
+#currency_manager_admin_cursor {
+	cursor:pointer;
+}
+
+#currency_manager_admin_table_div {
+	width: 100%;
+	float: right;
+	diredtion: rtl;
+}
+
+#currency_manager_admin_product_group {
+	width: 50%;
+	float: right;
+	diredtion: rtl;
+}
+
+#currency_manager_admin_product_group label {
+	background-color: red;
+	padding: 0 5px;
+	color: #fff;
+}
+
+#currency_manager_admin_addon {
+	width: 50%;
+	float: left;
+	diredtion: rtl;
+}
+
+#currency_manager_admin_addon label {
+	background-color: green;
+	padding: 0 5px;
+	color: #fff;
+}
+
+#currency_manager_admin_save {
+	width: 100%;
+	text-align: center;
+	float: right;
+}
+
+#currency_manager_admin_config_addon {
+	background-color: green;
+	padding: 0 5px;
+	color: #fff;
+}
+
+#currency_manager_admin_config_product {
+	background-color: red;
+	padding: 0 5px;
+	color: #fff;
+}
